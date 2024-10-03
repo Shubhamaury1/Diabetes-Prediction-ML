@@ -44,5 +44,6 @@ def result(request):
             result1="Negative"
 
 
-        return render(request,'predictionssss.html',{"result2":result1})  #same page to you
+        return render(request,'res.html',{"result2":result1})  #same page to you
     return render(request, 'predictionssss.html')
+
