@@ -2,7 +2,7 @@
   "builds": [{
     "src": "DiabetesPredictions/DiabetesPredictions/wsgi.py",
     "use": "@vercel/python",
-    "config": {"maxlambdaSize": "15mb" , "runtime": "python3.11.9"}
+    "config": {"maxLambdaSize": "15mb" , "runtime": "python3.11.9"}
   }],
   "routes": [
     {
